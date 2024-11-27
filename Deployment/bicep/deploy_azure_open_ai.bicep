@@ -34,8 +34,8 @@ resource accounts_ckm_openai_name_gpt_4 'Microsoft.CognitiveServices/accounts/de
   properties: {
     model: {
       format: 'OpenAI'
-      name: 'gpt-4'
-      version: '0125-Preview'
+      name: 'gpt-4o'
+      version: '2024-08-06'
     }
     versionUpgradeOption: 'OnceNewDefaultVersionAvailable'
     raiPolicyName: 'Microsoft.Default'
