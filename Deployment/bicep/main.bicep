@@ -54,7 +54,7 @@ module keyvaultModule 'deploy_keyvault.bicep' = {
     tenantId: subscription().tenantId
     managedIdentityObjectId:managedIdentityModule.outputs.managedIdentityOutput.objectId   
     azureOpenAIApiKey:azOpenAI.outputs.openAIOutput.openAPIKey
-    azureOpenAIApiVersion:'2023-07-01-preview'
+    azureOpenAIApiVersion:'2024-08-06'
     azureOpenAIEndpoint:azOpenAI.outputs.openAIOutput.openAPIEndpoint
     cogServiceEndpoint:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceEndpoint
     cogServiceName:azAIMultiServiceAccount.outputs.cogSearchOutput.cogServiceName
